@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "gulp-jekyll": "0.0.0",
+    "gulp": "^3.8.7"
+  }
+}
