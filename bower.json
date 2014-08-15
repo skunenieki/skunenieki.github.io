@@ -1,0 +1,6 @@
+{
+  "name": "bower",
+  "dependencies": {
+    "requirejs": "2.*"
+  }
+}
