@@ -6500,9 +6500,12 @@ button.close {
   float: left;
   border: 1px solid #d4d4d4;
   border-radius: 2px;
-  padding: 20px;
+  padding: 15px 10px 10px 20px;
   position: relative;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+.timeline-time {
+  margin-top: 5px;
 }
 .timeline > li > .timeline-panel:before {
   position: absolute;
@@ -6619,6 +6622,21 @@ button.close {
 .timeline > li:first-child {
   margin-top: 0;
 }
+.logo {
+  margin: auto;
+}
+.logo svg {
+  fill: white;
+  stroke: white;
+}
+.timeline-user-icon {
+  float: left;
+}
+.timeline-user-icon img {
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
 .show-grid [class^=col-] {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -6626,6 +6644,7 @@ button.close {
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid #ddd;
   border: 1px solid rgba(86, 61, 124, 0.2);
+  height: 800px;
 }
 section {
   padding-bottom: 50px;
@@ -6644,17 +6663,15 @@ section {
   text-transform: uppercase;
 }
 .footer {
-  height: 300px;
   background: #1A1A1A;
   text-align: center;
-  padding: 60px 0 30px;
+  padding: 30px 0 20px 0;
   position: relative;
   font-size: 18px;
   color: #909090;
 }
 .footer .copy {
   font-size: 12px;
-  padding-bottom: 10px;
 }
 .footer a {
   color: white;
@@ -6664,16 +6681,19 @@ section {
 }
 .footer .social-icons {
   margin-bottom: 20px;
+  margin-top: 15px;
 }
 .footer .social-icons li {
   display: inline-block;
-  margin: 0 0 10px 0;
 }
 .footer .social-icons i {
   border: 1px solid white;
   border-radius: 50%;
   padding-top: 1px;
   margin: 0 10px;
+}
+.footer .logo {
+  width: 200px;
 }
 .social-icons i {
   width: 35px;
